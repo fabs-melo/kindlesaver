@@ -5,8 +5,8 @@ $(function () {
     var canvas = document.getElementById('imageCanvas');
     var ctx = canvas.getContext('2d');
 	
-	var cropwidth = 758;
-	var cropheight = 1024;
+	var cropwidth = 1072;
+	var cropheight = 1448;
 	var currentdevice = "paperwhite";
 
 		$('#changeDevice').click(function(e) 
@@ -25,8 +25,8 @@ $(function () {
 			else
 			{
 				$('#kindle').css( "background-image", "url('http://crowned.github.io/kindlesaver/images/paperwhite.png')" );
-				cropwidth = 758;
-				cropheight = 1024;
+				cropwidth = 1072;
+				cropheight = 1448;
 				$('#device').text( "Touch" );
 				currentdevice = "paperwhite";
 			}
